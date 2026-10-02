@@ -49,11 +49,8 @@ whitelist:
 # 自动白名单Docker主机和网关IP
 whitelistDockerHosts: true
 # 启用端点基础认证
-basicAuthMode: true
+basicAuthMode: false
 # 基础认证凭据
-basicAuthUser:
-  username: ${USERNAME}
-  password: ${TAVERN_PASSWORD}
 # 启用CORS代理中间件
 enableCorsProxy: false
 # -- 请求代理配置 --
