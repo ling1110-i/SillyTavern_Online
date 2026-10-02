@@ -49,7 +49,7 @@ whitelist:
 # 自动白名单Docker主机和网关IP
 whitelistDockerHosts: true
 # 启用端点基础认证
-basicAuthMode: false
+basicAuthMode: true
 # 基础认证凭据
 basicAuthUser:
   username: ${USERNAME}
